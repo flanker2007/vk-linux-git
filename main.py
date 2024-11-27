@@ -17,3 +17,12 @@ print(f"В вашем тексте {len(x)} различных слов")
 
 for i in lst:
     print(i)
+
+example = input()
+user = input()
+
+user_set = set(user.split())
+example_set = set(example.split())
+
+print(len(user_set & example_set))
+print(round((len(user_set - example_set) / len(user_set)) * 100), "%", sep = "")
