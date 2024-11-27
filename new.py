@@ -38,3 +38,5 @@ else:
                 print("Матрица диагональная")
             else:
                 print("Матрица единичная") 
+
+print("merge-conflict-branch")
