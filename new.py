@@ -40,3 +40,4 @@ else:
                 print("Матрица единичная") 
 
 print("master")
+print("merge-conflict-branch")
