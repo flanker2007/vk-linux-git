@@ -47,3 +47,5 @@ if(st_split[1] == lst_sings[0]):
 else:
     result = lst_numbers.index(st_split[0]) + lst_numbers.index(st_split[2])
     print(lst_numbers[result])
+
+print("111111")
